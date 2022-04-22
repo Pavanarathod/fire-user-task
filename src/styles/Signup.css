@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .signup__input {
+    @apply border-2 border-gray-300 w-full py-3 px-2 font-mono focus:outline-none;
+  }
+}
